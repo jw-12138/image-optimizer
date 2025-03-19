@@ -4,7 +4,7 @@ type FIT_TYPE = 'scale-down' | 'contain' | 'cover' | 'crop' | 'pad';
 type FORMAT_TYPE = 'avif' | 'webp' | 'json' | 'jpeg' | 'png';
 type OUTPUT_TYPE = 'thumbnail' | 'small' | 'medium' | 'large';
 
-const ALLOWED_SOURCE_ORIGINS = ['images.unsplash.com'];
+const ALLOWED_SOURCE_ORIGINS = ['blog-r2.jw1.dev'];
 
 const OUTPUT_SIZES: { [key in OUTPUT_TYPE]: number } = {
 	thumbnail: 150,
